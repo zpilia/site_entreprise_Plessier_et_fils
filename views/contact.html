@@ -15,17 +15,35 @@
 </head>
 
 <body>
+
 <%- include('header.ejs'); %>
+
 <div class="container mt-5">
 
 
     <!--Section: Content-->
     <section class="dark-grey-text mb-5">
 
+        <style>
+            .map-container-section {
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+            .map-container-section iframe {
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
+        </style>
+
         <!-- Section heading -->
         <h3 class="font-weight-bold text-center mb-4">Contactez nous</h3>
         <!-- Section description -->
-        <p class="text-center w-responsive mx-auto pb-5">Une question particulière ? Besoins d'information ?  Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.</p>
+        <p class="text-center w-responsive mx-auto pb-5">Une question particulière ? Besoins d'information ? Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.</p>
 
         <!-- Grid row -->
         <div class="row">
@@ -46,7 +64,7 @@
                         <form method="POST">
                             <div class="md-form">
                                 <i class="fa fa-user prefix grey-text"></i>
-                                <input type="text" id="form-name" class="form-control" name="login" >
+                                <input type="text" id="form-name" class="form-control" name="login">
                                 <label for="form-name">Nom</label>
                             </div>
                             <div class="md-form">
@@ -81,29 +99,28 @@
 
                 <!--Google map-->
                 <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.8090224655825!2d3.980960315918834!3d50.276824407741174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c269d425edf113%3A0x8f058301e338f246!2sUniversite%20(Maubeuge)!5e0!3m2!1sfr!2sfr!4v1639751269918!5m2!1sfr!2sfr" frameborder="0"
-                            style="border:0" allowfullscreen></iframe>
+                    <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.018435556925!2d2.8484798158112348!3d49.4274654793473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d614d099582d%3A0x2f31992b35845ae7!2sTransports%20Plessier%20et%20Fils!5e0!3m2!1sfr!2sfr!4v1652365801578!5m2!1sfr!2sfr"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <!-- Buttons-->
                 <div class="row text-center">
                     <div class="col-md-4">
-                        <a class="btn-floating blue accent-1">
-                            <i class="fa fa-map-marker-alt"></i>
+                        <a class="btn-floating">
+                            <i class="fas fa-map-marker-alt"></i>
                         </a>
-                        <p>Maubeuge, 59600</p>
-                        <p class="mb-md-0">France</p>
+                        <p>46 Rte de Choisy, 60200 Compiègne</p>
                     </div>
                     <div class="col-md-4">
-                        <a class="btn-floating blue accent-1">
-                            <i class="fa fa-phone"></i>
+                        <a class="btn-floating">
+                            <i class="fa fa-phone mr-3"></i>
                         </a>
-                        <p>+33 303030303</p>
+                        <p>03 44 38 67 67</p>
                     </div>
                     <div class="col-md-4">
-                        <a class="btn-floating blue accent-1">
-                            <i class="fa fa-envelope"></i>
+                        <a class="btn-floating">
+                            <i class="fas fa-envelope"></i>
                         </a>
-                        <p>contact@swapbike.com</p>
+                        <p>compta.plessier@plessier.fr</p>
                     </div>
                 </div>
 
