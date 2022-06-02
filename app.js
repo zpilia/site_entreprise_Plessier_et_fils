@@ -9,12 +9,24 @@ const validator = require("email-validator");
 app.set("view", path.join(__dirname, "view"));
 app.set("view engine", "ejs");
 
+const sequelize = new Sequelize("transports_plessier", process.env.DB_USER, process.env.DB_PASSWORD, {
+    
+    });
 
 
-const contact = sequelize.define(
-    "contact",
+
+const Contact = sequelize.define(
+    "Contact",
     {
-
+        idContact: {type : DataTypes.INTEGER, primaryKey: true},
+        nom : DataTypes.TEXT,
+        mail : DataTypes.TEXT,
+        objet : DataTypes.TEXT,
+        message : DataTypes.TEXT
+    },
+    {
+        tableName: "Contact",
+        timestamps: false,
+        synchronize: true,
     }
-
 );
