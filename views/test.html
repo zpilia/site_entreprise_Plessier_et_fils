@@ -72,57 +72,123 @@
 <!-- Body -->
 
 <body>
-    <!-- Background image -->
-    <div class="bg-image d-flex justify-content-center align-items-center mt-3"
-            style="
-        background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.webp');
-        height: 30vh;
-      "
-    >
-        <h1 class="text-white">Transports Plessier</h1>
-    </div>
 
-    <!-- Resume entreprise -->
+<div class="container mt-5">
 
-    <div class="container">
-        <div class="row gx-5 justify-content-center">
 
-            <p class="text-justifiy">
-                .....
-            </p>
+    <!--Section: Content-->
+    <section class="dark-grey-text mb-5">
+
+        <style>
+            .map-container-section {
+                overflow:hidden;
+                padding-bottom:56.25%;
+                position:relative;
+                height:0;
+            }
+            .map-container-section iframe {
+                left:0;
+                top:0;
+                height:100%;
+                width:100%;
+                position:absolute;
+            }
+        </style>
+
+        <!-- Section heading -->
+        <h3 class="font-weight-bold text-center mb-4">Contactez nous</h3>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto pb-5">Une question particulière ? Besoins d'information ? Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.</p>
+
+        <!-- Grid row -->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-lg-5 mb-lg-0 pb-lg-3 mb-4">
+
+                <!-- Form with header -->
+                <div class="card">
+                    <div class="card-body">
+                        <!-- Header -->
+                        <div class="form-header blue accent-1">
+                            <h3 class="mt-2"><i class="fa fa-envelope"></i> Ecrivez nous</h3>
+                        </div>
+                        <p class="dark-grey-text">Nous vous répondrons au plus vite.</p>
+                        <!-- Body -->
+                        <!-- TEST FORM RAJOUTE PAR MOI -->
+                        <form method="POST">
+                            <div class="md-form">
+                                <i class="fa fa-user prefix grey-text"></i>
+                                <input type="text" id="form-name" class="form-control" name="login" placeholder="Nom">
+                            </div>
+                            <br>
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix grey-text"></i>
+                                <input type="text" id="form-email" class="form-control" name="email" placeholder="Email" >
+                            </div>
+                            <br>
+                            <div class="md-form">
+                                <i class="fa fa-tag prefix grey-text"></i>
+                                <input type="text" id="form-Subject" class="form-control" name="subject" placeholder="Objet">
+                            </div>
+                            <br>
+                            <div class="md-form">
+                                <i class="fa fa-pencil-alt prefix grey-text"></i>
+                                <textarea id="form-text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message"></textarea>
+                            </div>
+                            <br>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-light">Envoyer</button>
+                            </div>
+                            <!-- TEST FIN DE FORM -->
+                        </form>
+                    </div>
+                </div>
+                <!-- Form with header -->
+
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-lg-7">
+
+                <!--Google map-->
+                <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                    <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.018435556925!2d2.8484798158112348!3d49.4274654793473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d614d099582d%3A0x2f31992b35845ae7!2sTransports%20Plessier%20et%20Fils!5e0!3m2!1sfr!2sfr!4v1652365801578!5m2!1sfr!2sfr"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <!-- Buttons-->
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <a class="btn-floating">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </a>
+                        <p>46 Rte de Choisy, 60200 Compiègne</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn-floating">
+                            <i class="fa fa-phone mr-3"></i>
+                        </a>
+                        <p>03 44 38 67 67</p>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="btn-floating">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <p>compta.plessier@plessier.fr</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Grid column -->
 
         </div>
-    </div>
+        <!-- Grid row -->
 
+    </section>
+    <!--Section: Content-->
 
-    <!-- Resume entreprise -->
-
-    <!-- Service -->
-    <div class="container">
-        <div class="row gx-5 justify-content-center">
-
-            <div class="col-lg-4 col-md-12 mt-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg" data-mdb-ripple-color="#000000"><i class="fas fa-truck-loading"></i></button>
-                <p class="text-justify mt-3">Logistique</p>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mt-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i> </button>
-                <p class="text-justify mt-3">Messagerie Palette</p>
-            </div>
-
-            <div class="col-lg-4 col-md-6 mt-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i> </button>
-                <p class="text-justify mt-3">Transports Longue Distance</p>
-            </div>
-
-        </div>
-    </div>
-    <!-- Fin Service -->
-
+</div>
 
 </body>
 
