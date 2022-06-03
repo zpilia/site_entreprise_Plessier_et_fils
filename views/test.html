@@ -73,122 +73,305 @@
 
 <body>
 
-<div class="container mt-5">
-
-
-    <!--Section: Content-->
-    <section class="dark-grey-text mb-5">
+    <!-- Timeline n°2 -->
+    <div class="container mt-3">
 
         <style>
-            .map-container-section {
-                overflow:hidden;
-                padding-bottom:56.25%;
-                position:relative;
-                height:0;
+            /* The actual timeline (the vertical ruler) */
+            .main-timeline-2 {
+                position: relative;
             }
-            .map-container-section iframe {
-                left:0;
-                top:0;
-                height:100%;
-                width:100%;
-                position:absolute;
+
+            /* The actual timeline (the vertical ruler) */
+            .main-timeline-2::after {
+                content: '';
+                position: absolute;
+                width: 3px;
+                background-color: #26c6da;
+                top: 0;
+                bottom: 0;
+                left: 50%;
+                margin-left: -3px;
+            }
+
+            /* Container around content */
+            .timeline-2 {
+                position: relative;
+                background-color: inherit;
+                width: 50%;
+            }
+
+            /* The circles on the timeline */
+            .timeline-2::after {
+                content: '';
+                position: absolute;
+                width: 25px;
+                height: 25px;
+                right: -11px;
+                background-color: #26c6da;
+                top: 15px;
+                border-radius: 50%;
+                z-index: 1;
+            }
+
+            /* Place the container to the left */
+            .left-2 {
+                padding: 0px 40px 20px 0px;
+                left: 0;
+            }
+
+            /* Place the container to the right */
+            .right-2 {
+                padding: 0px 0px 20px 40px;
+                left: 50%;
+            }
+
+            /* Add arrows to the left container (pointing right) */
+            .left-2::before {
+                content: " ";
+                position: absolute;
+                top: 18px;
+                z-index: 1;
+                right: 30px;
+                border: medium solid white;
+                border-width: 10px 0 10px 10px;
+                border-color: transparent transparent transparent white;
+            }
+
+            /* Add arrows to the right container (pointing left) */
+            .right-2::before {
+                content: " ";
+                position: absolute;
+                top: 18px;
+                z-index: 1;
+                left: 30px;
+                border: medium solid white;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent white transparent transparent;
+            }
+
+            /* Fix the circle for containers on the right side */
+            .right-2::after {
+                left: -14px;
+            }
+
+            /* Media queries - Responsive timeline on screens less than 600px wide */
+            @media screen and (max-width: 600px) {
+
+                /* Place the timelime to the left */
+                .main-timeline-2::after {
+                    left: 31px;
+                }
+
+                /* Full-width containers */
+                .timeline-2 {
+                    width: 100%;
+                    padding-left: 70px;
+                    padding-right: 25px;
+                }
+
+                /* Make sure that all arrows are pointing leftwards */
+                .timeline-2::before {
+                    left: 60px;
+                    border: medium solid white;
+                    border-width: 10px 10px 10px 0;
+                    border-color: transparent white transparent transparent;
+                }
+
+                /* Make sure all circles are at the same spot */
+                .left-2::after,
+                .right-2::after {
+                    left: 18px;
+                }
+
+                .left-2::before {
+                    right: auto;
+                }
+
+                /* Make all right containers behave like the left ones */
+                .right-2 {
+                    left: 0%;
+                }
             }
         </style>
 
-        <!-- Section heading -->
-        <h3 class="font-weight-bold text-center mb-4">Contactez nous</h3>
-        <!-- Section description -->
-        <p class="text-center w-responsive mx-auto pb-5">Une question particulière ? Besoins d'information ? Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.</p>
-
-        <!-- Grid row -->
-        <div class="row">
-
-            <!-- Grid column -->
-            <div class="col-lg-5 mb-lg-0 pb-lg-3 mb-4">
-
-                <!-- Form with header -->
-                <div class="card">
-                    <div class="card-body">
-                        <!-- Header -->
-                        <div class="form-header blue accent-1">
-                            <h3 class="mt-2"><i class="fa fa-envelope"></i> Ecrivez nous</h3>
+        <section style="background-color: #F0F2F5">
+            <div class="container py-5">
+                <div class="main-timeline-2">
+                    <div class="timeline-2 left-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Création de l'entreprise Transport Plessier</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1964</p>
+                            </div>
                         </div>
-                        <p class="dark-grey-text">Nous vous répondrons au plus vite.</p>
-                        <!-- Body -->
-                        <!-- TEST FORM RAJOUTE PAR MOI -->
-                        <form method="POST">
-                            <div class="md-form">
-                                <i class="fa fa-user prefix grey-text"></i>
-                                <input type="text" id="form-name" class="form-control" name="login" placeholder="Nom">
+                    </div>
+                    <div class="timeline-2 right-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Création de la société Plessier & Fils</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1984</p>
                             </div>
-                            <br>
-                            <div class="md-form">
-                                <i class="fa fa-envelope prefix grey-text"></i>
-                                <input type="text" id="form-email" class="form-control" name="email" placeholder="Email" >
+                        </div>
+                    </div>
+                    <div class="timeline-2 left-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Construction du 1er entrepôt de 3 000 m^2</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1995</p>
                             </div>
-                            <br>
-                            <div class="md-form">
-                                <i class="fa fa-tag prefix grey-text"></i>
-                                <input type="text" id="form-Subject" class="form-control" name="subject" placeholder="Objet">
+                        </div>
+                    </div>
+                    <div class="timeline-2 right-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Construction d'un entrepôt de stockage de 10 000 m^2</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2001</p>
                             </div>
-                            <br>
-                            <div class="md-form">
-                                <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                <textarea id="form-text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message"></textarea>
+                        </div>
+                    </div>
+                    <div class="timeline-2 left-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Acquisition ... compagnie</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
                             </div>
-                            <br>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-light">Envoyer</button>
+                        </div>
+                    </div>
+                    <div class="timeline-2 right-2">
+                        <div class="card">
+                            <img src="../public/img/objectif-co2.png" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Charte CO2 avec l'entreprise Objectif CO2</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
                             </div>
-                            <!-- TEST FIN DE FORM -->
-                        </form>
+                        </div>
                     </div>
                 </div>
-                <!-- Form with header -->
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Fin Timeline n°2 -->
+
+    <!-- Engagement -->
+    <div class="container mt-4">
+        <h2>Nos engagements</h2>
+
+        <div class="row justify-content-center mt-2">
+
+            <div class="col-lg-4">
+
+                <div class="view overlay z-depth-1">
+                    <img src="../public/img/objectif-co2.png" class="img-fluid" alt="First sample image">
+                </div>
+            </div>
+
+            <div class="col-lg-6 mb-4">
+
+                <p class="mt-5 ms-5">
+                    ...........
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Engagement -->
+
+    <!-- Partenaire -->
+    <div class="container mt-4">
+        <h2>Nos Partnaires</h2>
+
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item">
+
+            <!--Controls-->
+            <div class="controls-top text-center mb-3">
+                <a class="btn btn-floating btn-lg" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left"></i></a>
+                <a class="btn btn-floating btn-lg" href="#multi-item-example" data-slide="next"><i
+                        class="fas fa-chevron-right"></i></a>
+            </div>
+            <!--/.Controls-->
+
+
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/Logo-Renault.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/renaulttrucks.jpg"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/Trimble-logo.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/objectif-co2.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src=""
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
 
             </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-lg-7">
-
-                <!--Google map-->
-                <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
-                    <iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.018435556925!2d2.8484798158112348!3d49.4274654793473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7d614d099582d%3A0x2f31992b35845ae7!2sTransports%20Plessier%20et%20Fils!5e0!3m2!1sfr!2sfr!4v1652365801578!5m2!1sfr!2sfr"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-                <!-- Buttons-->
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <a class="btn-floating">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </a>
-                        <p>46 Rte de Choisy, 60200 Compiègne</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a class="btn-floating">
-                            <i class="fa fa-phone mr-3"></i>
-                        </a>
-                        <p>03 44 38 67 67</p>
-                    </div>
-                    <div class="col-md-4">
-                        <a class="btn-floating">
-                            <i class="fas fa-envelope"></i>
-                        </a>
-                        <p>compta.plessier@plessier.fr</p>
-                    </div>
-                </div>
-
-            </div>
-            <!-- Grid column -->
+            <!--/.Slides-->
 
         </div>
-        <!-- Grid row -->
-
-    </section>
-    <!--Section: Content-->
-
-</div>
+        <!--/.Carousel Wrapper-->
+    </div>
+    <!-- Fin Partenaire -->
 
 </body>
 
