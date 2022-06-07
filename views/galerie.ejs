@@ -18,7 +18,66 @@
 
 <body>
 
+    <style>
+        img{
+            max-width: 100%;
+        }
+        .gallery{
+            padding: 30px 0;
+        }
+        .gallery img{
+            padding: 15px;
+            width: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.3);
+            cursor: pointer;
+        }
+        #gallery-modal .modal-img{
+            width: 100%;
+        }
+    </style>
+    
+    <section class="gallery min-vh-50">
+        <div class="container-lg">
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+                <div class="col">
+                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Modal -->
+    <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="modal-img" alt="modal img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../public/js/bootstrap.bundle.min.js"></script>
+    <script src="../public/js/main.js"></script>
 
 </body>
 
