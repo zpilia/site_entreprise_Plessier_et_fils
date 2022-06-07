@@ -28,11 +28,3 @@ const Contact = sequelize.define(
         synchronize: true,
     }
 );
-
-document.addEventListener("click",function (e){
-    if(e.target.classList.contains("gallery-item")){
-        document.querySelector(".modal-img").src = e.target.getAttribute("src");
-        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
-        myModal.show();
-    }
-})
