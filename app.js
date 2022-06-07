@@ -13,8 +13,6 @@ const sequelize = new Sequelize("transports_plessier", process.env.DB_USER, proc
     
     });
 
-
-
 const Contact = sequelize.define(
     "Contact",
     {
@@ -30,3 +28,11 @@ const Contact = sequelize.define(
         synchronize: true,
     }
 );
+
+document.addEventListener("click",function (e){
+    if(e.target.classList.contains("gallery-item")){
+        document.querySelector(".modal-img").src = e.target.getAttribute("src");
+        const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'));
+        myModal.show();
+    }
+})
