@@ -40,13 +40,13 @@
         <div class="container-lg">
             <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
                 <div class="col">
-                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                    <img src="../public/img/depannage.jpg" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                    <img src="../public/img/poste_controle.jpg" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                    <img src="../public/img/" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
                     <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
