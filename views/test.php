@@ -47,7 +47,7 @@
                         <a class="nav-link" href="societe.php">Société</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="service.ejs">Services</a>
+                        <a class="nav-link" href="service.php">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="information.php">Information</a>
