@@ -29,7 +29,7 @@
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Navbar brand -->
-            <a class="navbar-brand" href="accueil.ejs">
+            <a class="navbar-brand" href="accueil.php">
                 <img src="../public/img/logo2.png"
                      height="50"
                      alt=""
@@ -41,25 +41,25 @@
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="accueil.ejs">Accueil</a>
+                        <a class="nav-link" aria-current="page" href="accueil.php">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="societe.ejs">Société</a>
+                        <a class="nav-link" href="societe.php">Société</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="service.ejs">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="information.ejs">Information</a>
+                        <a class="nav-link" href="information.php">Information</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="galerie.ejs">Galerie</a>
+                        <a class="nav-link" href="galerie.php">Galerie</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.ejs">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recrutement.ejs">Recrutement</a>
+                        <a class="nav-link" href="recrutement.php">Recrutement</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -102,13 +102,13 @@
             <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">Service</h6>
                 <p>
-                    <a href="logistique.ejs">Logistique</a>
+                    <a href="logistique.php">Logistique</a>
                 </p>
                 <p>
-                    <a href="messageriePalette.ejs">Messagerie Palette</a>
+                    <a href="messageriePalette.php">Messagerie Palette</a>
                 </p>
                 <p>
-                    <a href="longueDistance.ejs">Transports longue distance</a>
+                    <a href="longueDistance.php">Transports longue distance</a>
                 </p>
             </div>
             <!-- Grid column -->

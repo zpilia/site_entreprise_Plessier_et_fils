@@ -29,7 +29,7 @@
                         <p class="card-text">
                             Nous possédons différents types de véhicules.
                         </p>
-                        <a href="../views/vehicule.ejs" class="btn btn-primary">À voir</a>
+                        <a href="vehicule.php" class="btn btn-primary">À voir</a>
                     </div>
                 </div>
             </div>
