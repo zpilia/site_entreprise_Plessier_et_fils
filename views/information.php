@@ -79,37 +79,37 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col col-5">
                 <div class="card">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Vehicule"/>
                     <div class="card-body">
                         <h5 class="card-title">Nos Véhicules</h5>
                         <p class="card-text">
                             Nous possédons différents types de véhicules.
                         </p>
-                        <a href="vehicule.php" class="btn btn-primary">À voir</a>
+                        <a href="vehicule.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="" class="card-img-top" alt="Palm Springs Road"/>
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Evolutrans"/>
                     <div class="card-body">
-                        <h5 class="card-title"></h5>
-                        <p class="card-text">
-
-                        </p>
-                        <a href="#" class="btn btn-primary">Button</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Palm Springs Road"/>
-                    <div class="card-body">
-                        <h5 class="card-title">Title</h5>
+                        <h5 class="card-title">Evolutrans</h5>
                         <p class="card-text">
                             ...
                         </p>
-                        <a href="#" class="btn btn-primary">Button</a>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Volupal"/>
+                    <div class="card-body">
+                        <h5 class="card-title">Volupal</h5>
+                        <p class="card-text">
+                            ...
+                        </p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
