@@ -243,9 +243,29 @@
                             <img src="#" class="card-img-top"
                                  alt="Responsive image">
                             <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Signature de contrat avec Evolutrans</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2012</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-2 right-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Acquisition société DELOT & Cie et ajcquistion d'un nouveau site</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
                                 <p>société situé à Villers-Cotterêt et déménagement du site à Crepy en Valois</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-2 left-2">
+                        <div class="card">
+                            <img src="#" class="card-img-top"
+                                 alt="Responsive image">
+                            <div class="card-body p-4">
+                                <h4 class="fw-bold mb-4">Mise en service de Volupal</h4>
+                                <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
                             </div>
                         </div>
                     </div>
