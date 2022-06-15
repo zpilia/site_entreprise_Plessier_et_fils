@@ -73,7 +73,7 @@
 
 <body>
 
-<section class="dark-grey-text mb-5">
+<section class="dark-grey-text mb-3">
 
     <h3 class="font-weight-bold text-center mb-4 mt-4">Nous recrutons</h3>
 
