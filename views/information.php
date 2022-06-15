@@ -103,7 +103,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="card-img-top" alt="Volupal"/>
+                    <img src="../public/img/volupal.png" class="card-img-top" alt="Volupal"/>
                     <div class="card-body">
                         <h5 class="card-title">Volupal</h5>
                         <p class="card-text">
