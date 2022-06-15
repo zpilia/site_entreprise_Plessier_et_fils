@@ -240,7 +240,7 @@
                     </div>
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
+                            <img src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg" class="card-img-top"
                                  alt="Responsive image">
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Signature de contrat avec Evolutrans</h4>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
+                            <img src="../public/img/volupal.png" class="card-img-top"
                                  alt="Responsive image">
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Mise en service de Volupal</h4>
@@ -421,9 +421,45 @@
                                      alt="Card image cap">
                             </div>
                         </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/BEST-DRIVE-LOGO.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!--/.Third slide-->
+
+                <!--Fourth slide-->
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/cesamax.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/krone.png"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <img class="card-img" src="../public/img/"
+                                     alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.Fourth slide-->
+
             </div>
             <!--/.Slides-->
 
