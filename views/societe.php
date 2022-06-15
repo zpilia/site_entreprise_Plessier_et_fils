@@ -449,13 +449,6 @@
                                      alt="Card image cap">
                             </div>
                         </div>
-
-                        <div class="col-md-4 clearfix d-none d-md-block">
-                            <div class="card mb-2">
-                                <img class="card-img" src="../public/img/"
-                                     alt="Card image cap">
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <!--/.Fourth slide-->
