@@ -75,7 +75,7 @@
 <body>
 
     <div class="container mt-4">
-    <section class="mb-5">
+    <section class="mb-3">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col col-5">
                 <div class="card">

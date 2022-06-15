@@ -77,7 +77,7 @@
 
     <h3 class="font-weight-bold text-center mb-4 mt-4">Nous recrutons</h3>
 
-    <p class="text-center w-responsive mx-auto pb-5">Vous voulez nous rejoindre ? <br>
+    <p class="text-center w-responsive mx-auto pb-2">Vous voulez nous rejoindre ? <br>
         Remplissez ce formulaire et nous reviendrons vers vous dans les plus brefs délais.</p>
 
     <div class="row d-flex justify-content-center">
