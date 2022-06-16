@@ -28,9 +28,9 @@
 
                 <div class="view z-depth-1">
                     <a href="logistique.php">
-                        <img src="https://mdbootstrap.com/img/Photos/Others/images/81.jpg" class="img-fluid" alt="smaple image">
+                        <img src="../public/img/stockage.jpg" class="img-fluid" alt="smaple image">
                         <div class="d-flex justify-content-center align-items-center h-100">
-                            <p class="text-black">Logistique</p>
+                            <p class="text-black mt-2">Logistique</p>
                         </div>
                     </a>
                 </div>
@@ -41,7 +41,7 @@
                     <a href="messageriePalette.php">
                         <img src="https://mdbootstrap.com/img/Photos/Others/images/82.jpg" class="img-fluid" alt="smaple image">
                         <div class="d-flex justify-content-center align-items-center h-100">
-                            <p class="text-black">Messagerie Palette</p>
+                            <p class="text-black mt-2">Messagerie Palette</p>
                         </div>
                     </a>
                 </div>
@@ -52,7 +52,7 @@
                     <a href="longueDistance.php">
                         <img src="https://mdbootstrap.com/img/Photos/Others/images/84.jpg" class="img-fluid" alt="smaple image">
                         <div class="d-flex justify-content-center align-items-center h-100">
-                            <p class="text-black">Transport Longue Distance</p>
+                            <p class="text-black mt-2">Transport Longue Distance</p>
                         </div>
                     </a>
                 </div>

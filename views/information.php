@@ -24,7 +24,7 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col col-5">
                 <div class="card">
-                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Vehicule"/>
+                    <img src="../public/img/type_vehicule.jpg" class="card-img-top" alt="Vehicule"/>
                     <div class="card-body">
                         <h5 class="card-title mb-3" style="text-align: center">Nos Véhicules</h5>
                         <p class="card-text">
