@@ -145,48 +145,43 @@
                 <div class="main-timeline-2">
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
-                                 alt="Responsive image">
+                            <!-- <img src="#" class="card-img-top" alt="Responsive image"> -->
                             <div class="card-body p-4">
-                                <h4 class="fw-bold mb-4">Création de l'entreprise Transport Plessier</h4>
+                                <h4 class="fw-bold mb-4">Création de l'entreprise Transports Plessier</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1964</p>
                             </div>
                         </div>
                     </div>
                     <div class="timeline-2 right-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
-                                 alt="Responsive image">
+                            <!-- <img src="#" class="card-img-top" alt="Responsive image"> -->
                             <div class="card-body p-4">
-                                <h4 class="fw-bold mb-4">Création de la société Plessier & Fils</h4>
+                                <h4 class="fw-bold mb-4">Création de la société Transports Plessier & Fils</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1984</p>
                             </div>
                         </div>
                     </div>
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
-                                 alt="Responsive image">
+                           <!--  <img src="#" class="card-img-top" alt="Responsive image"> -->
                             <div class="card-body p-4">
-                                <h4 class="fw-bold mb-4">Construction du 1er entrepôt de 3 000 m^2</h4>
+                                <h4 class="fw-bold mb-4">Construction du 1er entrepôt de 3 000 m&sup2</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 1995</p>
                             </div>
                         </div>
                     </div>
                     <div class="timeline-2 right-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
-                                 alt="Responsive image">
+                            <!-- <img src="#" class="card-img-top" alt="Responsive image"> -->
                             <div class="card-body p-4">
-                                <h4 class="fw-bold mb-4">Construction d'un entrepôt de stockage de 10 000 m^2</h4>
+                                <h4 class="fw-bold mb-4">Construction d'un entrepôt de stockage de <br> 10 000 m&sup2</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2001</p>
                             </div>
                         </div>
                     </div>
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg" class="card-img-top"
-                                 alt="Responsive image">
+                            <img src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg" class="card-img-top" alt="Responsive image">
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Signature de contrat avec Evolutrans</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2012</p>
@@ -195,8 +190,7 @@
                     </div>
                     <div class="timeline-2 right-2">
                         <div class="card">
-                            <img src="#" class="card-img-top"
-                                 alt="Responsive image">
+                            <!-- <img src="#" class="card-img-top" alt="Responsive image"> -->
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Acquisition société DELOT & Cie et ajcquistion d'un nouveau site</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
@@ -206,8 +200,7 @@
                     </div>
                     <div class="timeline-2 left-2">
                         <div class="card">
-                            <img src="../public/img/volupal.png" class="card-img-top"
-                                 alt="Responsive image">
+                            <img src="../public/img/volupal.png" class="card-img-top" alt="Responsive image">
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Mise en service de Volupal</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
@@ -216,8 +209,7 @@
                     </div>
                     <div class="timeline-2 right-2">
                         <div class="card">
-                            <img src="../public/img/objectif-co2.png" class="card-img-top"
-                                 alt="Responsive image">
+                            <img src="../public/img/objectif-co2.png" class="card-img-top" alt="Responsive image">
                             <div class="card-body p-4">
                                 <h4 class="fw-bold mb-4">Charte CO2 avec l'entreprise Objectif CO2</h4>
                                 <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
