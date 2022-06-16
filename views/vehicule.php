@@ -50,7 +50,7 @@
                     <div class="col-md-3 mx-5" style="float:left">
                         <div class="card mb-2 text-center">
                             <img class="card-img-top"
-                                 src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                 src="../public/img/camion-tautliner.png" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title" >Tautliner avec hayon à rideaux cloulissants</h4>
                             </div>
@@ -60,7 +60,7 @@
                     <div class="col-md-3 mx-5" style="float:left">
                         <div class="card mb-2 text-center">
                             <img class="card-img-top"
-                                 src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                 src="../public/img/camion-fourgon.png" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Semi-remorque fourgon avec hayon</h4>
                             </div>
@@ -70,7 +70,7 @@
                     <div class="col-md-3 mx-5" style="float:left">
                         <div class="card mb-2 text-center">
                             <img class="card-img-top"
-                                 src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                 src="../public/img/camion-remorque.png" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Camion-remorque à rideaux coulissants</h4>
                             </div>
@@ -86,7 +86,7 @@
                     <div class="col-md-3 mx-5" style="float:left">
                         <div class="card mb-2 text-center">
                             <img class="card-img-top"
-                                 src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
+                                 src="../public/img/camion-porteur.png" alt="Card image cap">
                             <div class="card-body">
                                 <h4 class="card-title">Camion porteur avec hayon</h4>
                             </div>
@@ -94,8 +94,6 @@
                     </div>
                 </div>
                 <!--/.Second slide-->
-
-
 
             </div>
             <!--/.Slides-->
