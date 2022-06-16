@@ -27,18 +27,25 @@
             <div class="col-lg-4">
 
                 <div class="view overlay z-depth-1">
-                    <img src="" class="img-fluid" alt="First sample image">
+                    <img src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" class="img-fluid" alt="First sample image">
                 </div>
             </div>
 
             <div class="col-lg-6 mb-4">
 
-                <p class="mt-5">
+                <p class="mt-5" style="text-align: justify">
                     Dans le service exploitation / Volupal, nous prenons auprès de nos clients des rendez-vous
                     pour assurer les livraisons puis nous gérons les saisies, les suivies et les exploitations de
                     chaque commande Volupal.
                 </p>
             </div>
+        </div>
+
+        <div class="container mt-4 text-center">
+            <h2 style="text-align: center">Notre équipe</h2>
+            <img src="../public/img/messageriePalette.png" alt="logisitque"
+                 class="w-50 fa-align-center mt-3"/>
+
         </div>
 
 
