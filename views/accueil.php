@@ -27,7 +27,7 @@
     >
         <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
             <div class="d-flex justify-content-center align-items-center h-100">
-                <h1 class="text-white mb-0 ">Transports PLESSIER & FILS</h1>
+                <h1 class="fw-bold display-3 text-white">Transports PLESSIER & FILS</h1>
             </div>
         </div>
     </div>
