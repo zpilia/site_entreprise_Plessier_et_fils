@@ -120,7 +120,7 @@
                         <a class="btn-floating">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <p>compta.plessier@plessier.fr</p>
+                        <p>compta@plessier.fr</p>
                     </div>
                 </div>
 
