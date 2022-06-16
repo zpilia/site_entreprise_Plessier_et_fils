@@ -26,7 +26,7 @@
                 <div class="card">
                     <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp" class="card-img-top" alt="Vehicule"/>
                     <div class="card-body">
-                        <h5 class="card-title">Nos Véhicules</h5>
+                        <h5 class="card-title mb-3" style="text-align: center">Nos Véhicules</h5>
                         <p class="card-text">
                             Nous possédons différents types de véhicules.
                         </p>
@@ -38,11 +38,11 @@
                 <div class="card">
                     <img src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg" class="card-img-top" alt="Evolutrans"/>
                     <div class="card-body">
-                        <h5 class="card-title">Evolutrans</h5>
+                        <h5 class="card-title mb-3" style="text-align: center">Evolutrans</h5>
                         <p class="card-text">
-                            ...
+                            Evolutrans est un réseau de transporteurs et logisticiens.
                         </p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="evolutrans.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
@@ -50,11 +50,11 @@
                 <div class="card">
                     <img src="../public/img/volupal.png" class="card-img-top" alt="Volupal"/>
                     <div class="card-body">
-                        <h5 class="card-title">Volupal</h5>
+                        <h5 class="card-title mb-3" style="text-align: center"> Réseau Volupal</h5>
                         <p class="card-text">
-                            ...
+                            Expédition de vos lots palettisés de 1 à 15 palettes
                         </p>
-                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                        <a href="volupal.php" class="btn btn-primary">En savoir plus</a>
                     </div>
                 </div>
             </div>
