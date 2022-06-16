@@ -25,9 +25,9 @@
         background-image: url('http://localhost:8888/site_entreprise_Plessier_et_fils/public/img/facade.jpg');
         height: 40vh; "
     >
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.5);">
             <div class="d-flex justify-content-center align-items-center h-100">
-                <h1 class="text-white mb-0">Transports PLESSIER & FILS</h1>
+                <h1 class="text-white mb-0 ">Transports PLESSIER & FILS</h1>
             </div>
         </div>
     </div>
