@@ -251,8 +251,7 @@
                     Transports PLESSIER et Fils s’engage à réduire sa consommation d'énergie et
                     réduction des émissions de CO2, de ses activités de transport, en suivant la Charte qui le concrétise avec le ministère de la transition
                     écologique et solidaire, la Région Hauts de France, l’Agence de l’Environnement et de la Maîtrise de l’Énergie – ADEME.
-                    Et nous formons également tous nos conducteurs à avoir une conduite
-                    eco-resposable.
+                    Et elle forme également tous nos conducteurs à avoir une conduite eco-resposable.
                 </p>
             </div>
         </div>
