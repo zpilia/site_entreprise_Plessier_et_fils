@@ -33,47 +33,19 @@
 
             <div class="col-lg-6 mb-4">
 
-                <p class="mt-5">
-                    Dans le service de Transports longue Distance, ....
+                <p class="mt-5" style="text-align: justify">
+                    Dans le service de Transports longue Distance, nous validons les commandes et gérons nos conducteurs
+                    afin que les commandes soient livrée à l'heure partout en France.
                 </p>
             </div>
         </div>
 
-        <table class="table align-middle mb-3 mt-5 bg-white text-center">
-            <thead class="bg-light">
-            <tr>
-                <th>Nom</th>
-                <th>Rôle</th>
-                <th>Email</th>
-                <th>Téléphone</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>David</td>
-                <td>Responsable</td>
-                <td>davids@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            <tr>
-                <td>Denis</td>
-                <td>Responsable</td>
-                <td>denis@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            <tr>
-                <td>Christophe</td>
-                <td>Responsable</td>
-                <td>christophe@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            </tbody>
-        </table>
-
-
-
+        <div class="container mt-4 text-center">
+            <h2 style="text-align: center">Notre équipe</h2>
+            <img src="../public/img/transportsLongueDistance.png" alt="logisitque"
+                 class="w-100 fa-align-center mt-3"/>
+        </div>
     </div>
-
 
 </body>
 

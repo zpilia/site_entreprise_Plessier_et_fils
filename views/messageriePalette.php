@@ -47,10 +47,7 @@
                  class="w-50 fa-align-center mt-3"/>
 
         </div>
-
-
     </div>
-
 
 </body>
 

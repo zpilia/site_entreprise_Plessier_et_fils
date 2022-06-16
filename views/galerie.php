@@ -49,7 +49,7 @@
                     <img src="../public/img/facade.jpg" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
-                    <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
+                    <img src="../public/img/stockage.jpg" class="gallery-item" alt="gallery">
                 </div>
                 <div class="col">
                     <img src="../public/img/5.jpg" class="gallery-item" alt="gallery">
