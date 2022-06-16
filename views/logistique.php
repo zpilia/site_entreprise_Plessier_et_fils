@@ -33,30 +33,19 @@
 
             <div class="col-lg-6 mb-4">
 
-                <p class="mt-5">
-                    Nous disposons un site logistique d'une surface de totale de 16 000 m2 où nous pouvons accueillir à peu près ? palettes.
+                <p class="mt-5" style="text-align: justify">
+                    Nous disposons de 2 sites : un de 10 000 m&sup2 qui peut accueillir jusqu'à 10 000 palettes (en taille standard)
+                    et un autre de 3 000 m&sup2 qui lui accueille jusqu'à 3 000 palettes (en taille standard).
                 </p>
             </div>
         </div>
 
-        <table class="table align-middle mb-3 mt-5 bg-white text-center">
-            <thead class="bg-light">
-            <tr>
-                <th>Nom</th>
-                <th>Rôle</th>
-                <th>Email</th>
-                <th>Téléphone</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Virginie</td>
-                <td>Responsable Logistique</td>
-                <td>virginie@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="container mt-4 text-center">
+            <h2 style="text-align: center">Notre équipe</h2>
+            <img src="../public/img/logistique.png" alt="logisitque"
+                 class="w-50 fa-align-center mt-3"/>
+
+        </div>
 
     </div>
 </body>
