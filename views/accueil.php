@@ -18,12 +18,20 @@
 
 <body>
 
-    <!-- Jumbotron -->
-    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 mt-3 text-white"
-         style="background-image: url('https://mdbootstrap.com/img/new/slides/003.jpg');">
-        <h1 class="mb-3 h1">Transports Plessier & Fils</h1>
+    <!-- Background image -->
+    <div
+            class="bg-image d-flex justify-content-center align-items-center mt-3"
+            style="
+        background-image: url('http://localhost:8888/site_entreprise_Plessier_et_fils/public/img/facade.jpg');
+        height: 40vh; "
+    >
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <h1 class="text-white mb-0">Transports PLESSIER & FILS</h1>
+            </div>
+        </div>
     </div>
-    <!-- Jumbotron -->
+    <!-- Background image -->
 
 
     <!-- Resume entreprise -->
