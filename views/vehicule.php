@@ -47,14 +47,13 @@
                 <!--First slide-->
                 <div class="carousel-item active">
 
-                    <div class="col-md-3 mx-5" style="float:left">
+                    <div class="col-md-3 mx-5" style="float:left; text-align: justify">
                         <div class="card mb-2">
                             <img class="card-img-top"
                                  src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg" alt="Card image cap">
                             <div class="card-body">
-                                <h4 class="card-title">Card title</h4>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                                    card's content.</p>
+                                <h4 class="card-title" style="text-align: center">Tautliner avec hayon</h4>
+                                <p class="card-text">C'est véhicule disposant d’une bâche amovible, particulièrement adaptée au transport routier de marchandises.</p>
                             </div>
                         </div>
                     </div>
