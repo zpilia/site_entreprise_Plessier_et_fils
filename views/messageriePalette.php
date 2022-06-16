@@ -27,7 +27,7 @@
             <div class="col-lg-4">
 
                 <div class="view overlay z-depth-1">
-                    <img src="../public/img/messageriePalette_2.jpg" class="img-fluid" alt="First sample image">
+                    <img src="" class="img-fluid" alt="First sample image">
                 </div>
             </div>
 
@@ -40,32 +40,6 @@
                 </p>
             </div>
         </div>
-
-        <table class="table align-middle mb-3 mt-5 bg-white text-center">
-            <thead class="bg-light">
-            <tr>
-                <th>Nom</th>
-                <th>Rôle</th>
-                <th>Email</th>
-                <th>Téléphone</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Mathias</td>
-                <td>Responsable management</td>
-                <td>mathias@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            <tr>
-                <td>Thierry</td>
-                <td>Service exploitation / Volupal</td>
-                <td>thierry@plessier.fr</td>
-                <td>03.44.00.00.00</td>
-            </tr>
-            </tbody>
-        </table>
-
 
 
     </div>
