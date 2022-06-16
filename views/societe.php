@@ -238,9 +238,9 @@
 
         <div class="row justify-content-center mt-2">
 
-            <div class="col-lg-4">
+            <div class="col-lg-5">
 
-                <div class="view overlay z-depth-1">
+                <div class="view overlay z-depth-1 mt-3">
                     <img src="../public/img/objectif-co2.png" class="img-fluid" alt="First sample image">
                 </div>
             </div>
@@ -260,12 +260,13 @@
 
             <div class="col-lg-6 mb-4">
 
-                <p class="mt-5 ms-5">
-                    ...........
+                <p class="mt-5 ms-5" style="text-align: justify">
+                    Evolutrans est un réseau de transporteurs et logisticiens comptant plus de 100 entreprises françaises sélectionnées
+                    sur la base d’un cahier des charges exigeant pour vous garantir une qualité de service optimale.
                 </p>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-6">
 
                 <div class="view overlay z-depth-1">
                     <img src="../public/img/evolutrans-hlogo-quadri-baseline.jpeg" class="img-fluid" alt="First sample image">
