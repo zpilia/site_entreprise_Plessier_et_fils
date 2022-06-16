@@ -17,15 +17,14 @@
 <?php require 'header.php'?>
 
 <body>
-    <!-- Background image -->
-    <div class="bg-image d-flex justify-content-center align-items-center mt-3"
-         style="
-            background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/015.webp');
-            height: 30vh;
-          "
-    >
-        <h1 class="text-white">Transports Plessier</h1>
+
+    <!-- Jumbotron -->
+    <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 mt-3 text-white"
+         style="background-image: url('https://mdbootstrap.com/img/new/slides/003.jpg');">
+        <h1 class="mb-3 h1">Transports Plessier & Fils</h1>
     </div>
+    <!-- Jumbotron -->
+
 
     <!-- Resume entreprise -->
 
