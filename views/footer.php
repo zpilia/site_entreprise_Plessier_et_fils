@@ -8,7 +8,11 @@
             <!-- Grid column -->
             <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                 <h6 class="text-uppercase mb-4 font-weight-bold">La société</h6>
-                <p>...</p>
+                <p class="text-justify">
+                    La société des Transports Plessier est une entreprise familiale de transport routier de fret interurbain.
+                    Elle dessert dans toute la France et dans les pays européens grâce à Evolutrans.
+                    Son activité a débuté en 1964, ce qui verra bientôt 60 ans.
+                </p>
             </div>
             <!-- Grid column -->
 
