@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row gx-5 justify-content-center">
 
-            <p class="text-justifiy mt-4 mb-5">
+            <p class="text-justifiy mt-4 mb-5 ms-2">
                 La société des Transports Plessier est une entreprise familiale de transport routier de fret interurbain
                 qui s’est développée au fil des ans. Et qui aujourd’hui dessert toute la France et dans les pays européens
                 grâce au réseau Evolutrans. Elle fut fondée en 1984, mais son activité commence bien avant, en 1964,
