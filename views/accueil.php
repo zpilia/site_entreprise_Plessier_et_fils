@@ -54,24 +54,40 @@
 
     <!-- Service -->
     <div class="container">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-md-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg" data-mdb-ripple-color="#000000"><i class="fas fa-truck-loading"></i></button>
-                <p class="text-justify mt-3">Logistique</p>
+        <div class="row gx-1 justify-content-between">
+
+            <div class="col-lg-1 col-md-3"></div>
+
+            <div class="col-lg-1 col-md-3">
+                <a href="logistique.php" role="button" aria-pressed="true"
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-3" data-mdb-ripple-color="#000000"><i class="fas fa-truck-loading"></i>
+                    </a>
+                <p class="text-center mt-3 me-5">Logistique</p>
             </div>
 
-            <div class="col-md-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg text-center" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i> </button>
-                <p class="text-justify mt-3">Messagerie Palette</p>
+            <div class="col-lg-1 col-md-3"></div>
+
+            <div class="col-lg-1 col-md-3"></div>
+
+            <div class="col-lg-1 col-md-3">
+                <a href="messageriePalette.php" role="button" aria-pressed="true"
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-5" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i>
+                </a>
+                <p class="text-center mt-3">Messagerie <br> Palette</p>
             </div>
 
-            <div class="col-md-4">
-                <button type="button"
-                        class="btn btn-outline btn-floating btn-lg" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i> </button>
-                <p class="text-justify mt-3">Transports Longue Distance</p>
+            <div class="col-lg-1 col-md-3"></div>
+
+            <div class="col-lg-1 col-md-3"></div>
+
+            <div class="col-lg-1 col-md-3">
+                <a href="longueDistance.php" role="button" aria-pressed="true"
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-5" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i>
+                </a>
+                <p class="text-center mt-3 me-3">Transports Longue Distance</p>
             </div>
+
+            <div class="col-lg-1 col-md-3"></div>
 
         </div>
     </div>
