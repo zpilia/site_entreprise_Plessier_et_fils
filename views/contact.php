@@ -61,25 +61,25 @@
                         <p class="dark-grey-text text-center">Nous vous répondrons au plus vite.</p>
                         <!-- Body -->
                         <!-- TEST FORM RAJOUTE PAR MOI -->
-                        <form method="POST">
+                        <form action= "mail.php" method="POST">
                             <div class="md-form">
                                 <i class="fa fa-user prefix grey-text"></i>
-                                <input type="text" id="form-name" class="form-control" name="login" placeholder="Nom">
+                                <input type="text" id="name" class="form-control" name="login" placeholder="Nom">
                             </div>
                             <br>
                             <div class="md-form">
                                 <i class="fa fa-envelope prefix grey-text"></i>
-                                <input type="text" id="form-email" class="form-control" name="email" placeholder="Email" >
+                                <input type="text" id="email" class="form-control" name="email" placeholder="Email" >
                             </div>
                             <br>
                             <div class="md-form">
                                 <i class="fa fa-tag prefix grey-text"></i>
-                                <input type="text" id="form-Subject" class="form-control" name="subject" placeholder="Objet">
+                                <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet">
                             </div>
                             <br>
                             <div class="md-form">
                                 <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                <textarea id="form-text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message"></textarea>
+                                <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message"></textarea>
                             </div>
                             <br>
                             <div class="text-center">
