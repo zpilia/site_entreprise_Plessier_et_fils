@@ -83,7 +83,7 @@
                             </div>
                             <br>
                             <div class="text-center">
-                                <button type="submit" class="btn btn-light">Envoyer</button>
+                                <button type="submit" style="background-color: #f2f2f2" class="btn btn-light">Envoyer</button>
                             </div>
                             <!-- TEST FIN DE FORM -->
                         </form>
