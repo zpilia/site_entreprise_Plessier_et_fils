@@ -71,9 +71,9 @@
 
             <div class="col-lg-1 col-md-3">
                 <a href="messageriePalette.php" role="button" aria-pressed="true"
-                        class="btn btn-outline btn-floating btn-lg active ms-lg-5" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i>
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-4" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i>
                 </a>
-                <p class="text-center mt-3">Messagerie <br> Palette</p>
+                <p class="text-center mt-3 me-2">Messagerie Palette</p>
             </div>
 
             <div class="col-lg-1 col-md-3"></div>
@@ -82,9 +82,9 @@
 
             <div class="col-lg-1 col-md-3">
                 <a href="longueDistance.php" role="button" aria-pressed="true"
-                        class="btn btn-outline btn-floating btn-lg active ms-lg-5" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i>
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-4" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i>
                 </a>
-                <p class="text-center mt-3 me-3">Transports Longue Distance</p>
+                <p class="text-center mt-3 me-2">Transports Longue Distance</p>
             </div>
 
             <div class="col-lg-1 col-md-3"></div>
