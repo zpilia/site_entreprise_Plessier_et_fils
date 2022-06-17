@@ -73,8 +73,10 @@
         </div>
     </div>
 
-    <div class="container">
-        <img src="../public/img/">
+    <div class="container mt-4">
+        <div class="text-center">
+            <img class="w-75 fa-align-center" src="../public/img/Evolutrans-nos-differentesgammes.pdf" alt="plaquetteEvolutrans">
+        </div>
     </div>
 
 </div>
