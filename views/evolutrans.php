@@ -31,10 +31,11 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <h5 class="card-title text-center">Nos Équipes</h5>
+                    <p class="card-text text-justify mt-3">
+                        Plus de 8 500 d'hommes et de femmes travaillent afin de satisfaire chacun de leurs clients. <br><br>
+                        Ils font preuve de professionnalisme, de disponibilité et sont à l'écoute pour mener à terme
+                        les missions donnée par leurs clients.
                     </p>
                 </div>
             </div>
@@ -42,19 +43,30 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                        This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
+                    <h5 class="card-title text-center">Infrastructures et Matériels</h5>
+                    <p class="card-text text-justify mt-3">
+                        Les entreprises de leur réseau sont à 99,5 % des sociétés familiales indépendantes et françaises.<br>
                     </p>
+                        <ul>
+                        <li>10 plateformes transit</li>
+                        <li>57 sites de stockages</li>
+                        <li>13 000 camions</li>
+                        <li>6 700 semi-remorque</li>
+                        </ul>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <h5 class="card-title text-center">Notre expérience</h5>
+                    <p class="card-text text-justify mt-3">
+                        Ce réseau collabore avec chacune des PME françaises depuis 22 ans. <br><br>
+                        Chaque entreprise se connaît et travaille ensemble par moment vous garantir des services et de grande qualité.
+                    </p>
+                    <ul>
+                        <li>98,9 % satisfaction client</li>
+                    </ul>
                 </div>
             </div>
         </div>
