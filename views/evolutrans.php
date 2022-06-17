@@ -18,7 +18,7 @@
 
 <body>
 
-<div class="container mt-4 mb-4">
+<div class="container mt-4">
 
     <h3 class="text-center mb-4">Evolutrans</h3>
 
@@ -71,6 +71,10 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container">
+        <img src="../public/img/">
     </div>
 
 </div>
