@@ -22,8 +22,9 @@
 
     <h3 class="text-center mb-4">Evolutrans</h3>
 
-    <p class="text-center w-responsive mx-auto pb-5">
-        ...
+    <p class="text-justify w-responsive mx-auto pb-5">
+        Evolutrans est un réseau de transporteurs et logisticiens comptant plus de 100 entreprises françaises sélectionnées
+        sur la base d’un cahier des charges exigeant pour vous garantir une qualité de service optimale.
     </p>
 
 
@@ -73,7 +74,7 @@
         <div class="col">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
+                    <h5 class="card-title"></h5>
                     <p class="card-text">
                         This is a longer card with supporting text below as a natural lead-in to
                         additional content. This content is a little bit longer.
