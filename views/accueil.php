@@ -39,7 +39,7 @@
     <div class="container">
         <div class="row gx-5 justify-content-center">
 
-            <p class="text-justifiy mt-4 mb-5 ms-2">
+            <p class="text-justify w-responsive mx-auto pb-4 mt-4">
                 La société des Transports Plessier est une entreprise familiale de transport routier de fret interurbain
                 qui s’est développée au fil des ans. Et qui aujourd’hui dessert toute la France et dans les pays européens
                 grâce au réseau Evolutrans. Elle fut fondée en 1984, mais son activité commence bien avant, en 1964,
@@ -60,9 +60,9 @@
 
             <div class="col-lg-1 col-md-3">
                 <a href="logistique.php" role="button" aria-pressed="true"
-                        class="btn btn-outline btn-floating btn-lg active ms-lg-3" data-mdb-ripple-color="#000000"><i class="fas fa-truck-loading"></i>
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-3 w-responsive" data-mdb-ripple-color="#000000"><i class="fas fa-truck-loading"></i>
                     </a>
-                <p class="text-center mt-3 me-5">Logistique</p>
+                <p class="text-center w-responsive mt-3 me-5">Logistique</p>
             </div>
 
             <div class="col-lg-1 col-md-3"></div>
@@ -71,9 +71,9 @@
 
             <div class="col-lg-1 col-md-3">
                 <a href="messageriePalette.php" role="button" aria-pressed="true"
-                        class="btn btn-outline btn-floating btn-lg active ms-lg-4" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i>
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-3 w-responsive" data-mdb-ripple-color="#000000"> <i class="fas fa-pallet"></i>
                 </a>
-                <p class="text-center mt-3 me-2">Messagerie Palette</p>
+                <p class="text-center w-responsive mt-3 me-2">Messagerie Palette</p>
             </div>
 
             <div class="col-lg-1 col-md-3"></div>
@@ -82,9 +82,9 @@
 
             <div class="col-lg-1 col-md-3">
                 <a href="longueDistance.php" role="button" aria-pressed="true"
-                        class="btn btn-outline btn-floating btn-lg active ms-lg-4" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i>
+                        class="btn btn-outline btn-floating btn-lg active ms-lg-3 w-responsive" data-mdb-ripple-color="#000000"> <i class="fas fa-truck-moving"></i>
                 </a>
-                <p class="text-center mt-3 me-2">Transports Longue Distance</p>
+                <p class="text-center w-responsive mt-3 me-2">Transports Longue Distance</p>
             </div>
 
             <div class="col-lg-1 col-md-3"></div>
