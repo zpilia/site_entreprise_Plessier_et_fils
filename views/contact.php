@@ -56,9 +56,9 @@
                     <div class="card-body">
                         <!-- Header -->
                         <div class="form-header blue accent-1">
-                            <h3 class="mt-2"><i class="fa fa-envelope"></i> Ecrivez nous</h3>
+                            <h3 class="mt-2 text-center"><i class="fa fa-envelope"></i> Écrivez-nous <i class="fa fa-envelope"></i></h3>
                         </div>
-                        <p class="dark-grey-text">Nous vous répondrons au plus vite.</p>
+                        <p class="dark-grey-text text-center">Nous vous répondrons au plus vite.</p>
                         <!-- Body -->
                         <!-- TEST FORM RAJOUTE PAR MOI -->
                         <form method="POST">
