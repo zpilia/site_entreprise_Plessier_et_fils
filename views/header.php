@@ -1,8 +1,8 @@
 <header>
 
     <div class="row">
-        <div class="col text-center align-self-center ">
-            <h1 class="title-header" >Transports Plessier & Fils</h1>
+        <div class="col text-center align-self-center">
+            <h1 class="title-header mt-4 mb-4">Transports Plessier & Fils</h1>
         </div>
     </div>
 
