@@ -75,7 +75,10 @@
 
     <div class="container mt-4">
         <div class="text-center">
-            <img class="w-75 fa-align-center" src="../public/img/Evolutrans-nos-differentesgammes.pdf" alt="plaquetteEvolutrans">
+            <a role="button" class="btn btn-outline-primary btn-rounded btn-lg active" aria-pressed="true"
+               href="https://www.evolutrans.fr">
+                Site officiel
+            </a>
         </div>
     </div>
 

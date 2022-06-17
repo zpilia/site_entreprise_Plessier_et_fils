@@ -18,10 +18,31 @@
 
 <body>
 
-<div class="container mt-4 mb-4">
+<div class="container mt-4">
 
-    <h3 class="text-center mb-4">Réseau Volupal</h3>
+    <h3 class="text-center mb-4">Évolutrans</h3>
 
+    <p class="text-justify w-responsive mx-auto mb-4">
+        Il s'agit d'une solution transport du groupement Évolutrans.
+        Elle permet aux clients qui ont une demande de solutions optimales
+        d’assurer de façon efficace leurs expéditions de petits lots palettisés jusqu’à 6 palettes.
+        Ils prennent en charge les marchandises générales et dangereuses (Classe 3, 4, 5, 8 et 9).
+    </p>
+
+    <div class="container">
+        <div class="text-center">
+            <img class="w-75 fa-align-center" src="../public/img/Evolutrans-nos-differentesgammes.pdf" alt="plaquetteEvolutrans">
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="text-center">
+            <a role="button" class="btn btn-outline-primary btn-rounded btn-lg active" aria-pressed="true"
+               href="https://www.evolutrans.fr/volupal/">
+                Site officiel
+            </a>
+        </div>
+    </div>
 
 
 </div>
