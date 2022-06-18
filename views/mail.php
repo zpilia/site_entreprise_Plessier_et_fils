@@ -1,6 +1,9 @@
 <?php
 
-    if(isset($_POST['email']) && $_POST['email'] != '') {
+$message_sent = false;
+if(isset($_POST['email']) && $_POST['email'] != '') {
+
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 
         //submit the form
         $name = $_POST['login'];
@@ -12,16 +15,17 @@
         $body = "";
 
         $body .= "From : " . $name . "\r\n";
-        $body .= "Email : ".$email. "\r\n";
-        $body .= "From : ".$text. "\r\n";
+        $body .= "Email : " . $email . "\r\n";
+        $body .= "From : " . $text . "\r\n";
 
         //mail($to, $subject, $body);
 
+        $message_sent = true;
+    }
+    else {
+        $invalid_class_name = "form-invalid";
     }
 
-
-
-
-
+}
 
 ?>

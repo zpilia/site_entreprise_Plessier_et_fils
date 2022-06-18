@@ -16,7 +16,46 @@
 
 <?php require 'header.php'?>
 
+<?php
+
+    $message_sent = false;
+    if(isset($_POST['email']) && $_POST['email'] != '') {
+
+        if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+
+            //submit the form
+            $name = $_POST['login'];
+            $email = $_POST['email'];
+            $subject = $_POST['subject'];
+            $text = $_POST['content'];
+
+            $to = "zpilia2@gmail.com";
+            $body = "";
+
+            $body .= "From : " . $name . "\r\n";
+            $body .= "Email : " . $email . "\r\n";
+            $body .= "From : " . $text . "\r\n";
+
+            //mail($to, $subject, $body);
+
+            $message_sent = true;
+        }
+        else {
+            $invalid_class_name = "form-invalid";
+        }
+
+    }
+?>
+
 <body>
+
+    <?php
+        if($message_sent):
+    ?>
+
+    <?php
+    else :
+    ?>
 
 <div class="container mt-5">
 
@@ -71,7 +110,8 @@
                             <br>
                             <div class="md-form">
                                 <i class="fa fa-envelope prefix grey-text"></i>
-                                <input type="text" id="email" class="form-control" name="email" placeholder="Email" >
+                                <input <?= $invalid_class_name ?? "" ?>
+                                        type="text" id="email" class="form-control" name="email" placeholder="Email" >
                             </div>
                             <br>
                             <div class="md-form">
@@ -94,6 +134,11 @@
                 <!-- Form with header -->
 
             </div>
+
+            <?php
+            endif;
+            ?>
+
             <!-- Grid column -->
 
             <!-- Grid column -->
