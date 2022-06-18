@@ -1,24 +1,27 @@
 <?php
 
-echo "<pre>";
+    if(isset($_POST['email']) && $_POST['email'] != '') {
 
-    print_r($_POST);
+        //submit the form
+        $name = $_POST['login'];
+        $email = $_POST['email'];
+        $subject = $_POST['subject'];
+        $text = $_POST['content'];
 
-    $name = $_POST['login'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $text = $_POST['content'];
+        $to = "zpilia2@gmail.com";
+        $body = "";
 
-    $to = "zpilia2@gmail.com";
-    $body = "";
+        $body .= "From : " . $name . "\r\n";
+        $body .= "Email : ".$email. "\r\n";
+        $body .= "From : ".$text. "\r\n";
 
-    $body .= "From : " . $name . "\r\n";
-    $body .= "Email : ".$email. "\r\n";
-    $body .= "From : ".$text. "\r\n";
+        //mail($to, $subject, $body);
 
-    mail($to, $subject, $body);
+    }
 
 
-echo '<pre>';
+
+
+
 
 ?>
