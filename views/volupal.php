@@ -31,7 +31,7 @@
 
     <div class="container">
         <div class="text-center">
-            <img class="w-75 fa-align-center" src="../public/img/Evolutrans-nos-differentesgammes.pdf" alt="plaquetteEvolutrans">
+            <img class="w-75 fa-align-center" src="../public/img/volupal.jpg" alt="plaquetteEvolutrans">
         </div>
     </div>
 

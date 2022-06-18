@@ -43,7 +43,9 @@
         <!-- Section heading -->
         <h3 class="font-weight-bold text-center mb-4">Contactez nous</h3>
         <!-- Section description -->
-        <p class="text-center w-responsive mx-auto pb-5">Une question particulière ? Besoins d'information ? Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.</p>
+        <p class="text-center w-responsive mx-auto pb-5">
+            Une question particulière ? Besoins d'information ? Quelle que soit votre question, vous pouvez nous la poser via ce formulaire.
+        </p>
 
         <!-- Grid row -->
         <div class="row">
@@ -61,7 +63,7 @@
                         <p class="dark-grey-text text-center">Nous vous répondrons au plus vite.</p>
                         <!-- Body -->
                         <!-- TEST FORM RAJOUTE PAR MOI -->
-                        <form action= "mail.php" method="POST">
+                        <form action="mail.php" method="POST">
                             <div class="md-form">
                                 <i class="fa fa-user prefix grey-text"></i>
                                 <input type="text" id="name" class="form-control" name="login" placeholder="Nom">
