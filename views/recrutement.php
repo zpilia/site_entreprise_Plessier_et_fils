@@ -112,12 +112,12 @@ require 'header.php';
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-md-3">
-                                    <button type="button" class="btn btn-primary  btn-floating  btn-lg"><i class="fas fa-download"></i></button>
+                                    <button type="button" class="btn btn-primary  btn-floating  btn-lg mb-2"><i class="fas fa-download"></i></button>
                                     <p class="text-justify">CV</p>
                                 </div>
-                                <div class="col-md-2">
-                                    <button type="button" class="btn btn-primary  btn-floating  btn-lg"><i class="fas fa-download"></i></button>
-                                    <p class="text-justify">Lettre de motivation</p>
+                                <div class="col-md-3">
+                                    <button type="button" class="btn btn-primary  btn-floating  btn-lg mb-2"><i class="fas fa-download"></i></button>
+                                    <p class="text-justify">Lettre motivation</p>
                                 </div>
                             </div>
                         </div>
