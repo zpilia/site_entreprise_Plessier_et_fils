@@ -14,51 +14,71 @@
     <title>Transports Plessier - Contact</title>
 </head>
 
-<?php require 'header.php'?>
+<?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+
+require 'header.php';
+    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\Exception.php';
+    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\PHPMailer.php';
+    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\SMTP.php';
+?>
 
 <?php
 
     $message_sent = false;
-    if(isset($_POST['email']) && $_POST['email'] != '') {
+    if (isset($_POST['send_mail'])) {
+        echo "bouton shooté";
+        if (!empty($_POST['login'])) { // Nom
+            echo "nom ok";
+            if (!empty($_POST['email'])) { // Email
+                if (!empty($_POST['subject'])) { // Objet
+                    if (!empty($_POST['content'])) {
+                        $mail = new PHPMailer();
 
-        if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+                        try {
+                            //Server settings
+                            $mail->isSMTP();                                            //Send using SMTP
+                            $mail->Host       = 'smtp.mailtrap.io';                     //Set the SMTP server to send through
+                            $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+                            $mail->Username   = 'dc678a16204ec3';                     //SMTP username
+                            $mail->Password   = 'e7e9824ff977e4';                               //SMTP password
+                            $mail->Port       = 2525;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
-            //submit the form
-            $name = $_POST['login'];
-            $email = $_POST['email'];
-            $subject = $_POST['subject'];
-            $text = $_POST['content'];
+                            //Recipients
+                            $mail->setFrom('zpilia2@gmail.com', 'Mailer');
+                            $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
+                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé la best');
 
-            $to = "zpilia2@gmail.com";
-            $body = "";
+                            //Content
+                            $mail->isHTML(true);                                  //Set email format to HTML
+                            $mail->Subject = $_POST['subject'];
+                            $mail->Body    = $_POST['content'];
+                            $mail->AltBody = $_POST['content'];
 
-            $body .= "From : " . $name . "\r\n";
-            $body .= "Email : " . $email . "\r\n";
-            $body .= "From : " . $text . "\r\n";
-
-            //mail($to, $subject, $body);
-
-            $message_sent = true;
+                            $mail->send();
+                            echo 'Message has been sent';
+                        } catch (Exception $e) {
+                            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+                        }
+                    } else {
+                        // pas de contenu
+                    }
+                } else {
+                    // pas d'objet
+                }
+            } else {
+                // pas d'email
+            }
+        } else {
+            // pas de nom
         }
-        else {
-            $invalid_class_name = "form-invalid";
-        }
-
     }
 ?>
 
 <body>
 
-    <?php
-        if($message_sent):
-    ?>
-
-    <?php
-    else :
-    ?>
-
 <div class="container mt-5">
-
 
     <!--Section: Content-->
     <section class="dark-grey-text mb-5">
@@ -102,30 +122,33 @@
                         <p class="dark-grey-text text-center">Nous vous répondrons au plus vite.</p>
                         <!-- Body -->
                         <!-- TEST FORM RAJOUTE PAR MOI -->
-                        <form action="mail.php" method="POST">
+                        <form action="" method="POST">
                             <div class="md-form">
                                 <i class="fa fa-user prefix grey-text"></i>
-                                <input type="text" id="name" class="form-control" name="login" placeholder="Nom">
+                                <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
                             </div>
                             <br>
+
                             <div class="md-form">
                                 <i class="fa fa-envelope prefix grey-text"></i>
-                                <input <?= $invalid_class_name ?? "" ?>
-                                        type="text" id="email" class="form-control" name="email" placeholder="Email" >
+                                <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
                             </div>
                             <br>
+
                             <div class="md-form">
                                 <i class="fa fa-tag prefix grey-text"></i>
-                                <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet">
+                                <input type="text" id="subject" class="form-control" name="subject" placeholder="Objet" required>
                             </div>
                             <br>
+
                             <div class="md-form">
                                 <i class="fa fa-pencil-alt prefix grey-text"></i>
-                                <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message"></textarea>
+                                <textarea id="text" class="form-control md-textarea" rows="3" name="content" placeholder="Contenu du message" required></textarea>
                             </div>
                             <br>
+
                             <div class="text-center">
-                                <button type="submit" style="background-color: #f2f2f2" class="btn btn-light">Envoyer</button>
+                                <button name="send_mail" type="submit" style="background-color: #f2f2f2" class="btn btn-light">Envoyer</button>
                             </div>
                             <!-- TEST FIN DE FORM -->
                         </form>
@@ -134,10 +157,6 @@
                 <!-- Form with header -->
 
             </div>
-
-            <?php
-            endif;
-            ?>
 
             <!-- Grid column -->
 
