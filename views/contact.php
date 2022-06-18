@@ -28,12 +28,10 @@ require 'header.php';
 
     $message_sent = false;
     if (isset($_POST['send_mail'])) {
-        echo "bouton shooté";
         if (!empty($_POST['login'])) { // Nom
-            echo "nom ok";
             if (!empty($_POST['email'])) { // Email
                 if (!empty($_POST['subject'])) { // Objet
-                    if (!empty($_POST['content'])) {
+                    if (!empty($_POST['content'])) { //message
                         $mail = new PHPMailer();
 
                         try {
