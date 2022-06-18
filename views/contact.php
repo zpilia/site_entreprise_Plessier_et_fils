@@ -46,7 +46,7 @@ require 'header.php';
                             //Recipients
                             $mail->setFrom('zpilia2@gmail.com', 'Mailer');
                             $mail->addAddress($_POST['email'], $_POST['login']);     //Add a recipient
-                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé la best');
+                            $mail->addReplyTo('zpilia2@gmail.com', 'Zoé');
 
                             //Content
                             $mail->isHTML(true);                                  //Set email format to HTML
