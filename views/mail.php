@@ -9,8 +9,14 @@ echo "<pre>";
     $subject = $_POST['subject'];
     $text = $_POST['content'];
 
-    $to = "";
+    $to = "zpilia2@gmail.com";
+    $body = "";
 
+    $body .= "From : " . $name . "\r\n";
+    $body .= "Email : ".$email. "\r\n";
+    $body .= "From : ".$text. "\r\n";
+
+    mail($to, $subject, $body);
 
 
 echo '<pre>';
