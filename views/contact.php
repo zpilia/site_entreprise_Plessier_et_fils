@@ -19,9 +19,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 
 require 'header.php';
-    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\Exception.php';
-    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\PHPMailer.php';
-    require 'A:\wamp64\www\php-mysql\Projet_Perso\site_entreprise_Plessier_et_fils\PHPMailer\src\SMTP.php';
+    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/Exception.php';
+    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/PHPMailer.php';
+    require '/Applications/MAMP/htdocs/site_entreprise_Plessier_et_fils/PHPMailer/src/SMTP.php';
 ?>
 
 <?php
@@ -120,7 +120,7 @@ require 'header.php';
                         <p class="dark-grey-text text-center">Nous vous répondrons au plus vite.</p>
                         <!-- Body -->
                         <!-- TEST FORM RAJOUTE PAR MOI -->
-                        <form action="" method="POST">
+                        <form action="contact.php" method="POST">
                             <div class="md-form">
                                 <i class="fa fa-user prefix grey-text"></i>
                                 <input type="text" id="name" class="form-control" name="login" placeholder="Nom" required>
