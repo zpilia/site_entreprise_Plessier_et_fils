@@ -27,7 +27,7 @@
             <div class="col-lg-4">
 
                 <div class="view overlay z-depth-1">
-                    <img src="https://mdbootstrap.com/img/Photos/Others/img (38).jpg" class="img-fluid" alt="First sample image">
+                    <img src="../public/img/camion_city.jpg" class="img-fluid" alt="First sample image">
                 </div>
             </div>
 
