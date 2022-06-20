@@ -20,7 +20,7 @@
 
 <div class="container mt-4">
 
-    <h3 class="text-center mb-4">Évolutrans</h3>
+    <h3 class="text-center mb-4">Réseau Volupal</h3>
 
     <p class="text-justify w-responsive mx-auto mb-4">
         Il s'agit d'une solution transport du groupement Évolutrans.
